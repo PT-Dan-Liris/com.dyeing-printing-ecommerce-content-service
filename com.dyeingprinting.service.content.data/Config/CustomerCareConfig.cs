@@ -12,7 +12,6 @@ namespace com.dyeingprinting.service.content.data.Config
         public void Configure(EntityTypeBuilder<CustomerCare> builder)
         {
             builder.Property(p => p.Title).HasMaxLength(255);
-            builder.Property(p => p.Description).HasMaxLength(255);
         }
     }
 }
